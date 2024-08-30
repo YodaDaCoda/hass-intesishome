@@ -1,11 +1,11 @@
 {
-  "domain": "intesishome",
-  "name": "IntesisHome",
+  "domain": "intesishomelocal",
+  "name": "IntesisHome Local",
   "documentation": "https://www.home-assistant.io/integrations/intesishome",
-  "codeowners": ["@jnimmo"],
+  "codeowners": ["@YodaDaCoda"],
   "requirements": ["pyintesishome==1.8.5"],
-  "iot_class": "cloud_push",
+  "iot_class": "local_polling",
   "loggers": ["pyintesishome"],
   "config_flow": true,
-  "version": "1.0.6"
+  "version": "0.0.1"
 }
